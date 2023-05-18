@@ -91,7 +91,7 @@ class _BooksCatalogState extends State<BooksCatalog> {
             Navigator.push(
               context,
               MaterialPageRoute(
-                builder: (context) => DetailPage(bookId: 'your_book_id'),
+                builder: (context) => DetailPage(bookId: book.id!),
               ),
             );
           },
